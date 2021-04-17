@@ -1,0 +1,61 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}
+
+.fa-camera, a {
+    color: white;
+    margin-right: 5px;
+    transition: all 0.5s;
+}
+
+.fa-camera:hover, a:hover {
+    color: violet !important;
+    font-weight: bolder;
+    text-shadow: .5px .5px 1px violet;
+}
+
+.navbar-toggler {
+    display: block !important;
+}
+
+.card-body {
+    border: none;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    border-left: white 3px solid;
+}
+
+.second {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: violet;
+    border: violet 1px solid;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgb(211, 95, 211);
+    border-color: rgb(211, 95, 211);
+    color: white;
+}
+
+.three {
+    background-color: violet;
+}
+
+.card-photo {
+    box-sizing: border-box;
+    border: violet 5px solid;
+}
+
+.text-dark:hover {
+    color: violet;
+}
